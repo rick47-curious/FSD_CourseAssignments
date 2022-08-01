@@ -1,0 +1,30 @@
+What is the relationship between browser and HTML?
+A- When we hit an web url,the web browser retrieves the data from the server where the web browser is hosted. The data is mainly written in HTML format
+as such this is used to build or showcase the webpage in the real browser.
+
+What is the current version of HTML used?
+A- Current version of HTML is HTML5.
+
+What are the advantages of HTML5 over other versions?
+A- 
+1.With the help of HTML5 user data can be stored locally as such the need of HTTP cookie is no longer required.This improves the performance of the content being delivered at a certain time.
+2.HTML5 supports audio and media file support.
+3.Elements like nav,header,footer were introduced in HTML5
+
+Which language is used to decorate/style HTML elements?
+A. CSS is used to decorate/style the html elements.
+
+What are the other languages that can be used as an alternative to HTML?But why is HTML preferred over those languages?
+A. 
+Alternatives of HTML-
+1. XHTML- Extensible Hypertext markup language
+2. XML - Extensible markup language
+
+HTML is preferred over other alternatives as -
+a. It is light weight
+b. It is supported by multiple browser.
+c. Easy to integrate with other programming languages
+
+What is a web application?
+A. A web application is a software which can be accessed via a web browser. It is hosted in a particular server,
+and is available under world wide web to the users connected to it using the active internet connection.
