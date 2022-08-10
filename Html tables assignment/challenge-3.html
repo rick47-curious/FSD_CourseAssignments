@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border: 2px solid black;
+        }
+        th{
+            background-color: rgb(128, 123, 123);
+        }
+        td{
+
+            background-color: rgb(236, 231, 231);
+        }
+    </style>
+    <title>ShoppingBill Table</title>
+</head>
+<body>
+    <!-- Table with border type 1 -->
+    <table border="1">
+        <!-- Table caption -->
+        <caption>Shopping bill</caption>
+        <!-- First row with invoice headers along with spanning-->
+        <tr>
+                <th colspan="20">Invoice #1234567</th>
+                <th colspan="15">20 January 2022</th>
+        </tr>
+        <!-- Second row with Payor and Customer details along with spanning-->
+        <tr>
+            <td colspan="10">
+                <b>Payto:</b><br>Acme Billing Co. <br>123 Main St. <br>Cityville,NA 12345</p>
+            </td>
+            <td colspan="25">
+                <b>Customer:</b> <br>John Smith<br>321 Willow Way <br>Southeast,NorthWestershire,MA 54321</p>
+            </td>
+        </tr>
+        <!-- Third row with headers along with spanning-->
+        <tr>
+            <th colspan="6">Name / Description</th>
+            <th colspan="4">Qty. </th>
+            <th colspan="10">@</th>
+            <th colspan="15">Cost</th>
+        </tr>
+        <!-- Fourth row with content for Name, Qty,@,Cost along with spanning-->
+        <tr>
+            <td colspan="6">PaperClips</td>
+            <td colspan="4">1000</td>
+            <td colspan="10">0.01</td>
+            <td colspan="15">10.00</td>
+        </tr>
+        <!-- Fifth row with content for Name, Qty,@,Cost along with spanning-->
+        <tr>
+            <td colspan="6">Staples (box)</td>
+            <td colspan="4">100</td>
+            <td colspan="10">1.00</td>
+            <td colspan="15">100.00</td>
+        </tr>
+        <!-- Sixth row with subtotal value along with spanning-->
+        <tr>
+            <th colspan="20">Subtotal</th>
+            <td colspan="15">110.00</td>
+        </tr>
+        <!-- Seventh row with Tax calculation along with spanning-->
+        <tr>
+            <th colspan="10">Tax</th>
+            <td colspan="10">8%</td>
+            <td colspan="15">8.80</td>
+        </tr>
+        <!-- Eighth row with Grand Total price along with spanning-->
+        <tr>
+            <th colspan="20">Grand Total</th>
+            <td colspan="15">Rs. 118.80</td>
+        </tr>  
+    </table>
+</body>
+</html>
