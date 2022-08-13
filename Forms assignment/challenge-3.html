@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        #heading{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        form{
+            margin:0 27rem;
+            width:30rem;
+            border:2px solid black;
+            padding:1rem 0 1rem 2rem;
+            background-color: rgba(235, 226, 226, 0.808);    
+        }
+        #name,#email,#roll,#rating,#doj{
+            width:27rem;
+            height:1.5rem;
+        }
+        form label{
+            font-family: sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+        #sub-btn{
+            width:27rem;
+            height:2rem;
+            margin:1rem 0.3rem;
+            font-weight: 700;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Text -->
+    <h1 id="heading">Feedback Form</h1>
+    <!-- Input form begins -->
+    <form action="#">
+        
+        <!-- Label for name -->
+        <label for="name">Name</label><br>
+        <!-- Input for name -->
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+        
+        <!-- Label for email -->
+        <label for="email">Email</label><br>
+        <!-- Input for email -->
+        <input type="email" id="email" placeholder="test@gmail.com" required><br><br>
+        
+        <!-- Label for roll -->
+        <label for="roll">Roll No</label><br>
+        <!-- Input for roll -->
+        <input type="text" id="roll" placeholder="roll" required><br><br>
+        <!--Label for doj-->
+        <label for="doj">Date of joining the batch</label><br>
+        <!-- Input for doj -->
+        <input type="date" id="doj"><br><br>
+
+        <!-- Label for Rating input from dropdown -->
+        <label for="rating">How do you rate our courses?</label><br>
+        <!-- Select dropdown with ratings -->
+        <select name="selectRating" id="rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="Bad">Bad</option>
+        </select><br><br>
+        
+        <!-- Label for chekbox input -->
+        <label for="favtopic">Your Favourite Topic In HTML</label><br>
+        <!-- Following are the input checkboxes -->
+        <input type="checkbox" id="favtopic"><span>Structural Elements</span><br>
+        <input type="checkbox" id="favtopic"><span>Links and Lists</span><br>
+        <input type="checkbox" id="favtopic"><span>HTML Media</span><br>
+        <input type="checkbox" id="favtopic"><span>HTML Table</span><br>
+        <input type="checkbox" id="favtopic"><span>Grouping Elements</span><br>
+        <input type="checkbox" id="favtopic"><span>Forms</span><br><br>
+        
+        <!--Label for radio input-->
+        <label for="like">Do you like the HTML course?</label><br>
+        <!--Following are the Input radio buttons-->
+        <input type="radio" name="liked-meter" id="like"><span>Yes</span><br>
+        <input type="radio" name="liked-meter" id="like"><span>No</span><br><br>
+        <!-- Label for Textarea -->
+        <label for="text-review">Few words about course</label><br>
+        <!-- Textarea input -->
+        <textarea id="text-review" rows="5" cols="57"></textarea><br><br>
+
+        <!-- Submit button -->
+        <button id="sub-btn"onclick="alert('Form Submitted')">Submit</button>
+    </form>
+</body>
+</html>
