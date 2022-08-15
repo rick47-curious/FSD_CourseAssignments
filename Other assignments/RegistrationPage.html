@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-user</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            border:1px solid black;
+            margin: 5rem 28rem;
+            width:27rem;
+            background-color: rgb(231, 231, 231);
+            box-shadow: 2px 2px 5px grey;
+        }
+        #heading-text{
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+            margin:1rem 0;
+        }
+        .container form{
+            padding:1rem 2rem; 
+        }
+        .container form label{
+            display:block;
+            margin:0.7rem 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+        }
+        .container form button{
+            display:block;
+            margin:1rem 0;
+            width:23rem;
+            height:2rem;
+            font-weight: 600;
+            text-align: center;
+            background-color: lightgreen;
+        }
+        #name,#emailid,#contact,#passwd,#cfpasswd{
+            width:22.5rem;
+            height:1.5rem;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="heading-text">Register</h1>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            
+            <label for="emailid">Email</label>
+            <input type="email" id="emailid" placeholder="test@gmail.com">
+            
+            <label for="membership">Are you a memeber of the club?</label>
+            <input type="radio" id="membership" name="option"><span>Yes</span>
+            <input type="radio" id="membership" name="option"><span>No</span>
+
+            <label for="contact">Contact</label>
+            <input type="text" id="contact" placeholder="Primary contact">
+
+            <label for="passwd">Password</label>
+            <input type="password" id="passwd" placeholder="Enter new password">
+
+            <label for="cfpasswd">Confirm Password</label>
+            <input type="password" id="cfpasswd" placeholder="Confirm new password">
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-user</title>
+    <style>
+        body{
+            background-color: rgb(211, 202, 202);
+        }
+        .container{
+            margin:10rem 27rem;
+            border:1px solid black;
+            width:28rem;
+            box-shadow: 2px 2px 7px black;
+            background-color: rgb(153, 150, 150);
+        }
+        #header-text{
+            margin:1rem 0 0 0;
+            text-align:center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+        }
+        .container form{
+            padding:2rem 2rem;
+        }
+        .container form label{
+            margin:1.2rem 0;
+            display:block;
+            font-weight: 700;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #username,#pass{
+            width:23rem;
+            height:2rem;
+        }
+        .container form button{
+            display: block;
+            margin:1rem 1rem;
+            margin-top:3rem;
+            margin-left:2rem;
+            border:1px solid black;
+            width:20rem;
+            height:2rem; 
+            background-color: lightblue;  
+            font-weight: 600;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="header-text">Login</h1>
+        <form action="#">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="Enter your password">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
