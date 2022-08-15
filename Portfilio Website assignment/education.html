@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <!-- Styling elements -->
+    <style>
+        body{
+            margin:0;
+            background-color: beige;
+        }
+        #header-text{
+            margin:0;
+            font-family: sans-serif;
+            font-weight: 500;
+            color:Blue;
+            text-align: center;
+            background-color: rgb(223, 215, 215);
+            
+        }
+        #backtohome{
+            padding:1rem 1rem;
+        }
+        #backbtn a{
+            text-decoration: none;
+            color:orange;
+        }
+
+        #main-content{
+            margin:2rem 3rem;
+        }
+        .sub-heading{
+            font-size: 1.5rem;
+            text-decoration: underline;
+        }
+        .list-institutes dt{
+            font-weight: 600;
+        }
+        .list-institutes dd{
+        font-style: italic;
+        }
+        .sub-container{
+            display:flex;
+            
+        }
+        .sub-container1{
+            flex-direction:column;
+            align-items: flex-start;
+        }
+        .sub-container2{
+            flex-direction:column;
+            align-items: flex-end;
+            margin-left: 15rem;
+        }
+
+        #shift-right{
+            margin-left: 40rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading text of the page -->
+    <h1 id="header-text">Education & Experiece</h1>
+    <!-- Back button/link to homepage -->
+    <div id="backtohome">
+        <button id="backbtn">
+            <a href="./index.html">Back</a>
+        </button>
+    </div>
+    <!-- Main content with descriptive list (with description) and image details -->
+    <div id="main-content">
+        <!-- Sub-heading -->
+        <h3 class="sub-heading">My Educational Background</h3>
+        <div class="sub-container">
+            <div class="sub-container1">
+                <dl class="list-institutes">
+                    <dt>University of Engineering and Management, Kolkata</dt>
+                    <dd>- Graduation year 2020 in Electronics and Communication Engineering</dd>
+                </dl>
+            </div>
+            <div class="sub-container2">
+                <img src="./images/UniversityImage.jpg" alt="University Image">
+            </div>
+            </div>
+            <div class="sub-container">
+                <div class="sub-container1">
+                    <dl class="list-institutes">
+                    <dt>St.Xavier's Durgapur</dt>
+                    <dd>- A high school science graduate in the year 2016</dd>
+                    <dd>- Board ISC</dd>
+                </dl>
+                 </div>
+                <div class="sub-container2">
+                    <img src="./images/HighSchool.jpg" alt="High School Image">
+                </div>
+            </div>
+
+            <div class="sub-container">
+                <div class="sub-container1">
+                    <dl class="list-institutes">
+                    <dt>St.Peter's Durgapur</dt>
+                    <dd>- A science graduate in the year 2014</dd>
+                    <dd>- Board ICSE</dd>
+                </dl>
+                 </div>
+                <div class="sub-container2" id="shift-right">
+                    <img src="./images/School.jpg" alt="High School Image">
+                </div>
+            </div>
+            <!-- Sub-heading -->
+            <h3 class="sub-heading">My Experience</h3>
+            <!-- Descriptive list of items mentioned below with description -->
+            <dl class="list-institutes">
+                <dt>Cognizant Technology Solutions</dt>
+                <dd>- Intern for a tenure of 4 months: 2020</dd>
+                <!-- Line break -->
+                <br>
+                <dt>Cognizant Technology Solutions</dt>
+                <dd>- QA automation Engineer for a tenure of 2 years : 2020 - 2022</dd>
+                <!-- Line break -->
+                <br>
+                <dt>Price Waterhouse Coopers, India</dt>
+                <dd>- Automation Test Engineer from 2022</dd>
+            </dl>
+        </div>    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <!-- Styling elements -->
+    <style>
+        body{
+            margin:0;
+            background-color: rgb(209, 203, 203);
+        }
+        #header-text{
+            margin:0;
+            font-family: sans-serif;
+            font-weight: 500;
+            color:Blue;
+            text-align: center;
+            background-color: rgb(223, 215, 215);
+            
+        }
+        #backtohome{
+            padding:1rem 1rem;
+        }
+        #backbtn a{
+            text-decoration: none;
+            color:orange;
+        }
+        #sub-heading{
+            text-align: center;
+            font-size:1.5rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .main-content{
+            margin: 3rem 25rem;
+            border: 1px solid black;
+            box-shadow: 2px 2px 5px black;
+        }
+        .main-content form{
+            padding:2rem 2rem;
+            background-color:rgb(189, 182, 182)
+        }
+        form label{
+            display: block;
+            margin:0.5rem 0;
+            color:orange;
+        }
+        #name,#emailid,#contact,#textbox{
+            width:30.5rem;
+        }
+        form button{
+            display: block;
+            margin-top: 2.2rem;
+            width:31rem;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading text for the page -->
+    <h1 id="header-text">Contact Me</h1>
+    <!-- Back button/link to homepage -->
+    <div id="backtohome">
+        <button id="backbtn">
+            <a href="./index.html">Back</a>
+        </button>
+    </div>
+    <!-- Sub-heading -->
+    <h3 id="sub-heading">Contact Me</h3>
+    <!-- Main content of the page with the input form -->
+    <div class="main-content">
+        <form action="#">
+            <!-- Input labels -->
+            <label for="name">Name</label>
+            <!-- Name textbox -->
+            <input type="text" id="name" placeholder="Enter your name">
+            <!-- Input labels -->
+            <label for="emailid">Email</label>
+            <!-- Email textbox -->
+            <input type="text" id="emailid" placeholder="test@gmail.com">
+            <!-- Input labels -->
+            <label for="contact">Contact No.</label>
+            <!-- Contact text box -->
+            <input type="text" id="contact" placeholder="(+91) 1234567890">
+            <!-- Input labels -->
+            <label for="textbox">Your Message</label>
+            <!-- Message text area -->
+            <textarea name="messagebox" id="textbox" cols="30" rows="5"></textarea>
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

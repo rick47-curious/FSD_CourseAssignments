@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheivements</title>
+    <!-- Styling elements -->
+    <style>
+        body{
+            margin:0;
+            background-color: bisque;
+        }
+        #header-text{
+            margin:0;
+            font-family: sans-serif;
+            font-weight: 500;
+            color:Blue;
+            text-align: center;
+            background-color: rgb(223, 215, 215);
+            
+        }
+        #backtohome{
+            padding:1rem 1rem;
+        }
+        #backbtn a{
+            text-decoration: none;
+            color:orange;
+        }
+        .main-content{
+            margin:5rem 25rem;
+            color:orange;
+            width:100%;
+        }
+        #table-details caption{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        #table-details td{
+            border: 1px solid grey;
+            padding:2rem 1rem;
+        }
+        #table-details th{
+            border: 1px solid grey;
+        }
+        #table-details tr:nth-child(n){
+            background-color: lightblue;
+            color: red;   
+        }
+        #table-details tr:nth-child(2n){
+            background-color: lightgreen;
+            color:blue;
+        }
+        #table-details tr:nth-child(1){
+            background-color: grey;
+            color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading text of the page -->
+    <h1 id="header-text">Acheivements & Awards</h1>
+    <!-- Back Button/Link to homepage -->
+    <div id="backtohome">
+        <button id="backbtn">
+            <a href="./index.html">Back</a>
+        </button>
+    </div>
+    <!--Main content with table  -->
+    <div class="main-content">   
+        <table id="table-details">
+            <!-- Table content/ light descrition -->
+            <caption><p>My Awards And Achievements</p></caption>
+            <!-- Table row with table headers -->
+            <tr>
+                <!-- Header elements -->
+                <th>Award</th>
+                <th>Received From</th>
+                <th>&nbsp; In the Year &nbsp;</th>
+            </tr>
+            <!-- Normal table row -->
+            <tr>
+                <!-- Table cells -->
+                <td>Cloud Architectural Design</td>
+                <td>LinkedIn</td>
+                <td>2022</td>
+            </tr>
+            <!-- Normal table row -->
+            <tr>
+                <!-- Table cells -->
+                <td>Certified Selenium Automation Engineer</td>
+                <td>Udemy</td>
+                <td>2020</td>
+            </tr>
+            <!-- Normal table row -->
+            <tr>
+                <!-- Table cells -->
+                <td>Stellar Performace</td>
+                <td>Cognizant</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <!-- Table cells -->
+                <td>Prattiva Samman</td>
+                <td>St.Xavier's Durgapur</td>
+                <td>2016</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

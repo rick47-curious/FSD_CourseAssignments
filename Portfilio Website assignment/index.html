@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Styling details -->
+    <style>
+        body{
+            margin:0;
+            background:url("./images/desk.jpg");
+            background-repeat: no-repeat;
+        }
+        #heading-text{
+            color:blue;
+        font-family:sans-serif;
+        font-size: 20px;
+        font-weight:500;
+        margin-top: 0;
+        margin-bottom:0;
+        }
+        .heading-container{
+            background-color: rgb(214, 209, 214); 
+            padding-top: 0.8rem;   
+            text-align: center;
+            height:2.5rem;
+            margin-bottom:2rem;
+        }
+        #navbar{
+            background-color: rgba(240, 235, 235, 0.747); 
+        }
+        #navbar li{
+            list-style-type: none;
+            display:inline;
+            margin:0 2rem;
+        }
+        #list-submenu li a{
+            text-decoration: none;
+            color:orange;
+            font-weight: 500;
+        }
+        .main-content{
+            margin:15rem 2rem 3rem 2rem;
+        }
+        .main-content #sub-heading{
+            text-align: center;
+            color:lightcoral;
+            font-style: italic;
+        }
+        .main-content p{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+            color:white;
+        }
+
+        .footer-container{
+            margin:12rem 2rem 3rem 2rem; 
+            text-align:center;
+        }
+        .footer-container #footer-text{
+            font-family: 'Times New Roman', Times, serif;
+            color:white;
+        }
+        #highlight{
+            font-weight: 500;
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Navigation bar with heading text for the page -->
+    <div class="heading-container">
+        <h1 id="heading-text">Anuplab's Portfolio</h1>
+        <nav id="navbar">
+            <!--Unordered List of links to other pages -->
+            <ul id="list-submenu">
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./acheivement.html">Acheivements</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Main sub-content in the page -->
+    <div class="main-content">
+        <h3 id="sub-heading">Hi there! Welcome to my portfolio.</h3>
+        <p>This page is all about me, my experience, my education and my acheivements so far.
+            The page also has a contact information page where you can submit your details so
+            that I can reach you for your concern.
+        </p>
+        <p>Meanwhile feel free to visit different sections of this webpage by navigating via the
+            links in the navigation bar above.
+        </p>
+    </div>
+    <!-- Footer of the page -->
+    <div class="footer-container">
+        <footer id="footer-text">
+            <p>This webpage is made by <span id="highlight">Anuplab Chatterjee</span> with the help of <span id="highlight">Testbook Team</span>. Copyrights as applicable.</p>
+        </footer>
+    </div>
+</body>
+</html>

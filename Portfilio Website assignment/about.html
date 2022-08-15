@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- Styling elements -->
+    <style>
+        body{
+            margin:0;
+            background-color: rgba(122, 117, 117, 0.877);
+        }
+        #header-text{
+            margin:0;
+            font-family: sans-serif;
+            font-weight: 500;
+            color:Blue;
+            text-align: center;
+            background-color: rgb(223, 215, 215);
+        }
+        #small-text{
+        font-style: italic;
+        font-weight: 500;   
+        }
+        #backtohome{
+            padding:1rem 1rem;
+        }
+        #backbtn a{
+            text-decoration: none;
+            color:orange;
+        }
+        .sub-container{
+            margin:2rem 3rem;
+        }
+        #image-content img{
+            border:0.5px solid grey;
+            width:10rem;
+            height:11rem;
+            border-radius:50%;
+        }
+        .sub-heading{
+            font-size: 1.5rem;
+            text-decoration: underline;
+        }
+        #highlight{
+            font-weight: 700;
+            color:blue;
+        }
+
+</style>
+</head>
+<body>
+    <!-- Heading text of the page -->
+    <h1 id="header-text">About Me</h1>
+    <!-- Back button/link to home page -->
+    <div id="backtohome">
+        <button id="backbtn">
+            <a href="./index.html">Back</a>
+        </button>
+    </div>
+    <!-- Sub-container with image/multimedia and text content -->
+    <div class="sub-container">
+        <div id="image-content">
+            <img src="./images/Personal_Picture.jpeg" alt="Profile photo">
+            <p id="small-text">Anuplab Chatterjee</p>
+        </div>
+        <div id="media">
+            <!-- Sub-heading -->
+            <h3 class="sub-heading">Audio introduction</h3>
+            <!-- Audio element -->
+            <audio controls>
+                <source src="./audio/Introduction.m4a" type="audio/ogg">
+                Your browser does not support audio element
+            </audio>
+        </div>
+        <div id="biodata">
+            <!-- Sub-heading -->
+            <h3 class="sub-heading">Biodata</h3>
+            <!-- Paragraph Content -->
+            <p>An experienced IT professional with 2+ years of experience in Automation testing.
+                Confident in langauages like - <span id="highlight">Java, C#</span>.
+            </p>
+            <!-- Paragraph Content -->
+            <p>Having knowledge in Web essentials like - <span id="highlight">HTML, CSS, JS.</span>
+            Having past experience of building solutions for causes like climate change, betterment 
+            of farming surplus using IBM techstack by participating in Callforcode 2021</p>
+            <p>From the year 2020 to 2022 Anuplab was engaged with Cognizant as a QA Automation
+            engineer.Currently from the year 2022 Anuplab is engaged with PwC India as an Automation tester
+            </p>
+        </div>
+        <p id="webdev">
+            <!-- Heading text -->
+            <h3>Why to become a Full stack web deveoper?</h3>
+            <!-- Content -->
+            <span>What Anuplab thinks, a curious and problem solving attitude makes the best
+                developer in its journey. By being a developer one has to focus on making the
+                product better and in accordace to the requirements as mentioned from the 
+                customer or client side keeping in mind every minute details and description
+                to make use of the opportunity to build an amazing software.
+                <span id="highlight">Fullstack developer</span> is an interesting profile
+                where an individual gets the opportunity to excel in both the front-end and
+                the back-end of the software with a wide knowledge in SDLC.
+            </span>
+        </p>
+        <p>Some of the most popular tools/languages used in both the front-end and back-end journey are as below:</p>
+        <!-- Unordered List of items -->
+        <ul id="poptechstack">
+            <!-- List elements with space -->
+            <li><span id="highlight">Front-end:&nbsp;</span>Angular,React</li>
+            <li><span id="highlight">Back-end:&nbsp;</span>Asp.Net,Node.js,Java,Python</li>
+            <li><span id="highlight">Database:&nbsp;</span>MySql, MongoDB, MSSQl server</li>
+        </ul>
+    </div>
+</body>
+</html>
