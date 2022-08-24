@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Text -->
+    <h1 id="heading">Survey Form</h1>
+    <!-- Input form begins -->
+    <form action="#">
+        
+        <!-- Label for name -->
+        <label for="name">Name</label><br>
+        <!-- Input for name -->
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+        
+        <!-- Label for email -->
+        <label for="email">Email</label><br>
+        <!-- Input for email -->
+        <input type="email" id="email" placeholder="test@gmail.com" required><br><br>
+        
+        <!-- Label for roll -->
+        <label for="roll" >Roll No</label><br>
+        <!-- Input for roll -->
+        <input type="text" id="roll" placeholder="roll" required><br><br>
+
+        <!-- Label for Rating input from dropdown -->
+        <label for="rating" >How do you rate our courses?</label><br>
+        <!-- Select dropdown with ratings -->
+        <select name="selectRating" id="rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="Bad">Bad</option>
+        </select><br><br>
+        
+        <!-- Label for chekbox input -->
+        <label for="favtopic" >Your Favourite Topic In HTML</label><br>
+        <!-- Following are the input checkboxes -->
+        <input type="checkbox" id="favtopic"><span>Structural Elements</span><br>
+        <input type="checkbox" id="favtopic"><span>Links and Lists</span><br>
+        <input type="checkbox" id="favtopic"><span>HTML Media</span><br>
+        <input type="checkbox" id="favtopic"><span>HTML Table</span><br>
+        <input type="checkbox" id="favtopic"><span>Grouping Elements</span><br>
+        <input type="checkbox" id="favtopic"><span>Forms</span><br><br>
+        
+        <!--Label for radio input-->
+        <label for="like" >Do you like the HTML course?</label><br>
+        <!--Following are the Input radio buttons-->
+        <input type="radio" name="liked-meter" id="like"><span>Yes</span>
+        <input type="radio" name="liked-meter" id="like"><span>No</span><br><br>
+        <!-- Label for Textarea -->
+        <label for="text-review" >Few words about course</label><br>
+        <!-- Textarea input -->
+        <textarea id="text-review" rows="5" cols="57"></textarea><br><br>
+
+        <!-- Submit button -->
+        <button id="sub-btn">Submit</button>
+    </form>
+</body>
+</html>

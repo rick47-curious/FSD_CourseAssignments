@@ -1,0 +1,27 @@
+form{
+    /*Solid border of 4 pixels, color black */
+    border:4px solid black;
+    /* Setting the width of the form */
+    width:35rem;
+}
+
+label{
+    /* Setting text color of every label element green*/
+    color:Green;
+}
+
+#name,#email,#rating,#text-review{
+    /* Setting input fields with a border radius of 25 pixels */
+    border-radius:25px;
+}
+
+#roll{
+    /* Setting roll input field with a border radius of 25 pixels */
+    border-radius: 25px;
+    /* Setting the width of the element */
+    width: 70px;
+}
+#sub-btn{
+    /* Background color of the button */
+    background-color: green;
+}
