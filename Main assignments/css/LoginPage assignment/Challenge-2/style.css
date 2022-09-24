@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+body{
+    background-color: rgb(158, 245, 226);
+}
+
+#header{
+    text-align: center;
+    margin:0;
+}
+.container{
+    height:20em;
+    width:30em;
+    border:2px solid grey;
+    margin:10em auto;
+    padding:2.5em;
+    border-radius: 0.5rem;
+    background-color: rgb(226, 217, 217);    
+}
+.block-ele{
+    display:block;
+    margin-top:0.5rem;
+    width:20rem;
+}
+#check-save{
+    display:inline;
+    margin-top:1rem;
+    width:1rem;   
+}
+.userinput{
+    height:1.5rem;
+    padding:0.3rem;
+    border-radius: 0.7rem;
+}
+#sub-btn{
+    width:19.7rem;
+    height:2rem;
+    margin:1.7rem 0.5rem 0rem 0.5rem;
+    padding:0.6rem 0.2rem;
+    border-radius: 1rem;
+    background-color: rgb(37, 163, 5);
+    font-weight: 700;
+    color:white;
+}
+#main-form{ 
+   margin:1rem 4.5rem;   
+}
+#forgotpwdlink{
+    margin-top:1rem;
+    float:left;
+}
+#register{
+    margin-top:1rem;
+    float:right;
+}

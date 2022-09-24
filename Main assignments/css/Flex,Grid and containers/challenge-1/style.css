@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: skyblue;
+}
+
+.flex-container>div {
+    background: lightcoral;
+    padding: 5px;
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

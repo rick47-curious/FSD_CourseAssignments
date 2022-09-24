@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(192, 243, 245);
+}
+
+#main-content{
+    height:25rem;
+    width:25rem;
+    margin:6rem auto;
+    padding:5rem 7rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(68, 232, 238);
+    border-radius: 2rem;
+
+}
+
+#product-genere{
+    margin-top:0;
+    margin-bottom: 1.5rem;
+    /* Imported font-style */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inner-container p{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}
+.inner-container img{
+   margin-left:4.6rem;
+   padding:0.5rem 0.5rem;
+   border:1px solid rgb(235, 232, 232);
+   border-radius:0.5rem;
+}
+.financial{
+    text-align:center;
+    margin-top: 1rem;
+    /* Imported font-style */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    color:grey;
+}
+
+.financial #addtocartbtn{
+    display: block;
+    margin:1rem auto;
+    padding:0.5rem;
+    background-color: transparent;
+    border:2px solid rgb(68, 232, 238);
+    border-radius:0.5rem;
+}
+/* Button hover effect */
+.financial #addtocartbtn:hover{
+    color:white;
+    font-weight: 800;
+    background-color: rgb(68, 232, 238);
+}
