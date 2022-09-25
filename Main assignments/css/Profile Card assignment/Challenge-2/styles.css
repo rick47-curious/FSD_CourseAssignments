@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("../Challenge-2/images/pixabay.jpg");
+}
+
+:root{
+
+    --id-border-color:grey;
+    --id-width:20rem;
+    --id-height:9rem;
+    --profile-background-width:20rem;
+    --background-height:10rem;
+    --profile-image-width:6rem;
+    --profile-image-height:6rem;
+}
+.container{  
+    width:var(--id-width);
+    margin:10rem auto;
+    border:2px solid var(--id-border-color);
+    box-shadow: 5px 5px 5px grey;
+    background-color: antiquewhite;
+}
+.header-container{
+    width:var(--id-width);
+    height:var(--id-height);
+    background-color:rgb(183, 231, 250);
+    z-index: -1;    
+}
+.id-body{
+   margin:3rem 0rem;
+   text-align:center;
+}
+.id-body>h3{
+    margin:1rem 0;
+}
+.text-desc{
+     font-family:'Times New Roman', Times, serif;
+}
+#profile-photo{
+    width:var(--profile-image-width);
+    height:var(--profile-image-height);   
+    margin:0 35%;
+    border-radius: 60%;
+    z-index: 1;
+    position:relative;
+    top:50%;
+    left:-1.5%;
+}
+#company-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width:3rem;
+    height:3rem;
+}
+.ln-logo{
+    width:2rem;
+    height:2rem;
+}
+#contact-hyperlink{
+    width:var(--id-width);
+    height:2.5rem;
+    font-weight: 700;
+    font-size:1.1rem;
+    color:white;
+    background-color: black;
+}
