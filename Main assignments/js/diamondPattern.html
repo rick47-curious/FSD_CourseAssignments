@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Design</title>
+</head>
+<body>
+    <script>
+        let row=5;
+        let col=9;
+        //Printing the upside pyramid
+        for (let i=1;i<row;i++){
+            for (let k=row-1;k>=i;k--){
+                document.write('&nbsp;&nbsp;');
+            }
+            for (let y=0;y<(2*i-1);y++){
+                 document.write("*");
+            }
+            document.write("<br>");
+        }
+        //Printing the downside pyramid
+        for (let i=row;i>0;i--){
+            for (let k=0;k<row-i;k++){
+                document.write('&nbsp;&nbsp');
+            }
+            for (let y=0;y<(2*i-1);y++){
+                 document.write("*");
+            }
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
